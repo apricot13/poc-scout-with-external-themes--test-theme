@@ -1,5 +1,4 @@
 import logo from "./logo.svg"
-import CookieMessage from "./components/cookieMessage"
  
 export const vars_generic = {
   slug: "generic",
