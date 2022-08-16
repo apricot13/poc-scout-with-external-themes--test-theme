@@ -2,13 +2,15 @@
   "name": "@futuregov/poc-scout-with-external-themes--test-theme",
   "version": "1.0.0",
   "description": "poc",
-  "main": "index.js",
+  "main": "index.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "react": "^18.2.0"
+  },
   "devDependencies": {
     "dotenv": "^16.0.1"
   }
