@@ -1,5 +1,6 @@
 import logo from "./logo.svg"
-
+import CookieMessage from "./components/cookieMessage"
+ 
 export const vars_generic = {
   slug: "generic",
   title: "Scout",
@@ -14,15 +15,16 @@ export const vars_generic = {
   usePresetTaxonomies: false,
   cookiesDisabledMessage:
     "Please note, some functionality such as interactive maps and location auto complete is currently disabled. Please accept cookies to use these features.",
-  cookieMessage: (
-    <>
-      <p>
-        We use cookies to collect information about how you use the Scout
-        website.
-      </p>
-      <p>We use this information to improve the website and our services.</p>
-    </>
-  ),
+  // cookieMessage: CookieMessage,
+  // cookieMessage: (
+  //   <>
+  //     <p>
+  //       We use cookies to collect information about how you use the Scout
+  //       website.
+  //     </p>
+  //     <p>We use this information to improve the website and our services.</p>
+  //   </>
+  // ),
   cookieName: "generic-scout",
   cookieCallback: () => {
     console.log("loadcookies")
