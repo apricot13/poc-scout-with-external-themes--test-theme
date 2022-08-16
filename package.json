@@ -1,0 +1,15 @@
+{
+  "name": "@futuregov/poc-scout-with-external-themes--test-theme",
+  "version": "1.0.0",
+  "description": "poc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "dotenv": "^16.0.1"
+  }
+}
